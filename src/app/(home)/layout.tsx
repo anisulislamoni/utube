@@ -8,6 +8,7 @@ export default function HomeLayout({ children }: LayoutProps){
   return (
     <div className="font-inter">
       <HomeLayoutModule>
+        hello
         {children}
       </HomeLayoutModule>
     </div>
